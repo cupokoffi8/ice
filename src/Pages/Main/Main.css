@@ -1,0 +1,20 @@
+.main-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+
+.main-header {
+    color: #1b2281;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.main-logo {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 15px;
+}
