@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from 'ice_logo.png';
+import logo from './ice_logo.png';
 import './Main.css';
 
 export default function Main() {
