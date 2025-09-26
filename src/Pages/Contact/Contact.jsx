@@ -7,7 +7,7 @@ export default function ContactUs() {
       <h2 className="contact-title">📞 Contact Us</h2>
       <p className="contact-subtitle">
         Have a question or want to book <strong>Dino's Ice Cream & Water Ice</strong> 
-        for your event? Get in touch below!
+        &nbsp;for your event? Get in touch below!
       </p>
 
       <div className="contact-grid">
