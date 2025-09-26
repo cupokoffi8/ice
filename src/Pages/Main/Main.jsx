@@ -1,11 +1,12 @@
 import React from 'react';
+import logo from '../../ice_logo.png';
 import './Main.css';
 
 export default function Main() {
   return (
     <div className="main-container">
       <header className="main-header">
-        <img className="main-logo" src="../../ice_logo.png" alt="Dino's Ice Cream & Water Ice Logo" />
+        <img className="main-logo" src={logo} alt="Dino's Ice Cream & Water Ice Logo" />
         <h1>Dino's Ice Cream & Water Ice</h1>
       </header>
 
