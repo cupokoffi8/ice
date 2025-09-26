@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ice/static/css/main.99b58a4f.css",
-    "main.js": "/ice/static/js/main.dc64e833.js",
+    "main.css": "/ice/static/css/main.6619c5af.css",
+    "main.js": "/ice/static/js/main.61482b60.js",
     "static/media/ice_logo.png": "/ice/static/media/ice_logo.6dece6dd3d43e0e3d75d.png",
     "index.html": "/ice/index.html",
-    "main.99b58a4f.css.map": "/ice/static/css/main.99b58a4f.css.map",
-    "main.dc64e833.js.map": "/ice/static/js/main.dc64e833.js.map"
+    "main.6619c5af.css.map": "/ice/static/css/main.6619c5af.css.map",
+    "main.61482b60.js.map": "/ice/static/js/main.61482b60.js.map"
   },
   "entrypoints": [
-    "static/css/main.99b58a4f.css",
-    "static/js/main.dc64e833.js"
+    "static/css/main.6619c5af.css",
+    "static/js/main.61482b60.js"
   ]
 }
