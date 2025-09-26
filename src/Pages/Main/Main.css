@@ -1,20 +1,82 @@
+/* Main container */
 .main-container {
-    text-align: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #fdf6f0 0%, #fff 100%);
+  color: #333;
+  text-align: center;
+  padding: 3rem 1.5rem;
 }
 
+/* Header */
 .main-header {
-    color: #1b2281;
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 .main-logo {
-    width: 50px;
-    height: auto;
-    vertical-align: middle;
-    margin-right: 15px;
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.main-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #e63946;
+  text-shadow: 2px 2px #ffb703;
+}
+
+/* Intro text */
+.main-intro {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.highlight {
+  color: #e63946;
+  font-weight: 600;
+}
+
+.cta-text {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #118ab2;
+}
+
+/* Call-to-action buttons */
+.main-cta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e63946;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(230, 57, 70, 0.3);
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #d62828;
+  transform: scale(1.05);
+}
+
+.cta-button.secondary {
+  background-color: #118ab2;
+}
+
+.cta-button.secondary:hover {
+  background-color: #0b6b8c;
 }
